@@ -28,11 +28,13 @@ $wgExtensionCredits['parserhook'][] = array (
 	"path" => __FILE__,
 	"name" => "OpenGraphMeta",
 	"author" => "[http://mediawiki.org/wiki/User:Dantman Daniel Friesen]",
-	"description" => "Adds OpenGraph meta tags used by FaceBook's Like button",
+	'descriptionmsg' => 'opengraphmeta-desc',
 	'url' => 'http://www.mediawiki.org/wiki/Extension:OpenGraphMeta',
 );
 
-$wgExtensionMessagesFiles['OpenGraphMetaMagic'] = dirname( __FILE__ ) . '/OpenGraphMeta.magic.php';
+$dir = dirname( __FILE__ );
+$wgExtensionMessagesFiles['OpenGraphMetaMagic'] = $dir . '/OpenGraphMeta.magic.php';
+$wgExtensionMessagesFiles['OpenGraphMeta'] = $dir . '/OpenGraphMeta.i18n.php';
 
 $wgHooks['ParserFirstCallInit'][] = 'efOpenGraphMetaParserInit';
 function efOpenGraphMetaParserInit( $parser ) {
