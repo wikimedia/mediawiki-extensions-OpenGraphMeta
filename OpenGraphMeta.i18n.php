@@ -15,6 +15,13 @@ $messages['en'] = array(
 	'opengraphmeta-desc' => "Adds OpenGraph meta tags used by FaceBook's Like button",
 );
 
+/** Belarusian (Taraškievica orthography) (Беларуская (тарашкевіца))
+ * @author Jim-by
+ */
+$messages['be-tarask'] = array(
+	'opengraphmeta-desc' => 'Дадае мэта-тэгі OpenGraph, якія выкарыстоўваюцца кнопкай «Падабаецца» ў FaceBook',
+);
+
 /** German (Deutsch)
  * @author Kghbln
  */
@@ -27,6 +34,13 @@ $messages['de'] = array(
  */
 $messages['fr'] = array(
 	'opengraphmeta-desc' => 'Ajoute des méta-étiquettes OpenGraph utilisées par le bouton « j’aime » de Facebook',
+);
+
+/** Swiss German (Alemannisch)
+ * @author Als-Holder
+ */
+$messages['gsw'] = array(
+	'opengraphmeta-desc' => 'Fiegt „OpenGraph“-Meta-Elemänt yy, wu uf FaceBook in dr Schaltflechi „Gfallt mer“ brucht wäre',
 );
 
 /** Upper Sorbian (Hornjoserbsce)
