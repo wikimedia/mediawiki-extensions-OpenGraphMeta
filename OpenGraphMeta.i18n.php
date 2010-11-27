@@ -15,18 +15,27 @@ $messages['en'] = array(
 	'opengraphmeta-desc' => "Adds OpenGraph meta tags used by FaceBook's Like button",
 );
 
+/** Message documentation (Message documentation)
+ * @author The Evil IP address
+ */
+$messages['qqq'] = array(
+	'opengraphmeta-desc' => '{{desc}}',
+);
+
 /** Belarusian (Taraškievica orthography) (Беларуская (тарашкевіца))
+ * @author EugeneZelenko
  * @author Jim-by
  */
 $messages['be-tarask'] = array(
-	'opengraphmeta-desc' => 'Дадае мэта-тэгі OpenGraph, якія выкарыстоўваюцца кнопкай «Падабаецца» ў FaceBook',
+	'opengraphmeta-desc' => 'Дадае мэта-тэгі OpenGraph, якія выкарыстоўваюцца кнопкай «Падабаецца» ў Facebook',
 );
 
 /** German (Deutsch)
  * @author Kghbln
+ * @author The Evil IP address
  */
 $messages['de'] = array(
-	'opengraphmeta-desc' => 'Fügt „OpenGraph“-Meta-Elemente hinzu, die von FaceBooks Schaltfläche „Gefällt mir“ verwendet werden',
+	'opengraphmeta-desc' => 'Fügt „OpenGraph“-Meta-Elemente hinzu, die von Facebooks Schaltfläche „Gefällt mir“ verwendet werden',
 );
 
 /** French (Français)
