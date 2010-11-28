@@ -30,6 +30,13 @@ $messages['be-tarask'] = array(
 	'opengraphmeta-desc' => 'Дадае мэта-тэгі OpenGraph, якія выкарыстоўваюцца кнопкай «Падабаецца» ў Facebook',
 );
 
+/** Breton (Brezhoneg)
+ * @author Fulup
+ */
+$messages['br'] = array(
+	'opengraphmeta-desc' => 'Ouzhpennañ a ra meta-tikedennoù OpenGraph implijet gant bouton "Plijout a ra din" Facebook',
+);
+
 /** German (Deutsch)
  * @author Kghbln
  * @author The Evil IP address
