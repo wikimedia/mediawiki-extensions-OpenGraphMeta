@@ -12,7 +12,7 @@ $messages = array();
  * @author Daniel Friesen
  */
 $messages['en'] = array(
-	'opengraphmeta-desc' => "Adds OpenGraph meta tags used by FaceBook's Like button",
+	'opengraphmeta-desc' => "Adds OpenGraph meta tags used by Facebook's Like button",
 );
 
 /** Message documentation (Message documentation)
