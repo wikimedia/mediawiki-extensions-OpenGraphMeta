@@ -87,6 +87,13 @@ $messages['mk'] = array(
 	'opengraphmeta-desc' => 'Додава метаознаки за OpenGraph што ги користи копчето „Ми се допаѓа“ на Facebook',
 );
 
+/** Dutch (Nederlands)
+ * @author Siebrand
+ */
+$messages['nl'] = array(
+	'opengraphmeta-desc' => 'Voegt metalabels voor OpenGraph toe die door Facebookknop "Vind ik leuk" worden gebruikt',
+);
+
 /** Polish (Polski)
  * @author Sp5uhe
  */
