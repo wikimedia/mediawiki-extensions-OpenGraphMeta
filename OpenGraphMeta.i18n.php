@@ -59,6 +59,13 @@ $messages['gsw'] = array(
 	'opengraphmeta-desc' => 'Fiegt „OpenGraph“-Meta-Elemänt yy, wu uf FaceBook in dr Schaltflechi „Gfallt mer“ brucht wäre',
 );
 
+/** Hebrew (עברית)
+ * @author YaronSh
+ */
+$messages['he'] = array(
+	'opengraphmeta-desc' => 'הוספת תגיות על של OpenGraph המשמשות את לחצן ה"אהבתי" של Facebook',
+);
+
 /** Upper Sorbian (Hornjoserbsce)
  * @author Michawiki
  */
