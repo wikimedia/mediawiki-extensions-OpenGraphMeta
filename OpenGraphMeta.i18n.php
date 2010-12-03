@@ -45,6 +45,13 @@ $messages['de'] = array(
 	'opengraphmeta-desc' => 'Fügt „OpenGraph“-Meta-Elemente hinzu, die von Facebooks Schaltfläche „Gefällt mir“ verwendet werden',
 );
 
+/** Lower Sorbian (Dolnoserbski)
+ * @author Michawiki
+ */
+$messages['dsb'] = array(
+	'opengraphmeta-desc' => 'Pśidawa metatoflicki OpenGraph, kótarež wužywaju se pśez tłocašk "Spodoba se mi" we FaceBooku',
+);
+
 /** French (Français)
  * @author Peter17
  */
