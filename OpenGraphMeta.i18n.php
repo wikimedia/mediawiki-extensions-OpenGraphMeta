@@ -136,6 +136,13 @@ $messages['pt'] = array(
 	'opengraphmeta-desc' => 'Adiciona as meta tags OpenGraph usadas pelo botão Like do Facebook',
 );
 
+/** Brazilian Portuguese (Português do Brasil)
+ * @author Giro720
+ */
+$messages['pt-br'] = array(
+	'opengraphmeta-desc' => 'Adiciona as meta tags OpenGraph usadas pelo botão Like do Facebook',
+);
+
 /** Russian (Русский)
  * @author Александр Сигачёв
  */
