@@ -60,7 +60,7 @@ function efSetMainImagePH( $out, $parserOutput, $data ) {
 
 $wgHooks['BeforePageDisplay'][] = 'efOpenGraphMetaPageHook';
 function efOpenGraphMetaPageHook( &$out, &$sk ) {
-	global $wgArticle, $wgLogo, $wgSitename, $wgXhtmlNamespaces, $egFacebookAppId, $egFacebookAdmins;
+	global $wgLogo, $wgSitename, $wgXhtmlNamespaces, $egFacebookAppId, $egFacebookAdmins;
 	$wgXhtmlNamespaces["og"] = "http://opengraphprotocol.org/schema/";
 	$title = $out->getTitle();
 	$isMainpage = $title->equals(Title::newMainPage());
