@@ -115,6 +115,13 @@ $messages['nl'] = array(
 	'opengraphmeta-desc' => 'Voegt metalabels voor OpenGraph toe die door Facebookknop "Vind ik leuk" worden gebruikt',
 );
 
+/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
+ * @author Nghtwlkr
+ */
+$messages['no'] = array(
+	'opengraphmeta-desc' => 'Legger til OpenGraph-meta-merkelapper brukt av Facebooks like-knapp',
+);
+
 /** Polish (Polski)
  * @author Sp5uhe
  */
