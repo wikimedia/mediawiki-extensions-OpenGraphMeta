@@ -37,6 +37,13 @@ $messages['br'] = array(
 	'opengraphmeta-desc' => 'Ouzhpennañ a ra meta-tikedennoù OpenGraph implijet gant bouton "Plijout a ra din" Facebook',
 );
 
+/** Bosnian (Bosanski)
+ * @author CERminator
+ */
+$messages['bs'] = array(
+	'opengraphmeta-desc' => 'Dodaje OpenGraph meta oznake koje se koriste kod dugmeta Like na Facebooku',
+);
+
 /** German (Deutsch)
  * @author Kghbln
  * @author The Evil IP address
@@ -57,6 +64,13 @@ $messages['dsb'] = array(
  */
 $messages['fr'] = array(
 	'opengraphmeta-desc' => 'Ajoute des méta-étiquettes OpenGraph utilisées par le bouton « j’aime » de Facebook',
+);
+
+/** Galician (Galego)
+ * @author Toliño
+ */
+$messages['gl'] = array(
+	'opengraphmeta-desc' => 'Engade etiquetas OpenGraph empregadas polo botón "Gústame" do Facebook',
 );
 
 /** Swiss German (Alemannisch)
