@@ -115,6 +115,13 @@ $messages['ja'] = array(
 	'opengraphmeta-desc' => 'Facebookのイイネ！ボタンで使用されるOpenGraphメタタグを追加',
 );
 
+/** Luxembourgish (Lëtzebuergesch)
+ * @author Robby
+ */
+$messages['lb'] = array(
+	'opengraphmeta-desc' => 'Setzt "OpenGraph"-Meta-Tags derbäi, déi vum Facebook-Knäppchen "Like" benotzt ginn',
+);
+
 /** Macedonian (Македонски)
  * @author Bjankuloski06
  */
