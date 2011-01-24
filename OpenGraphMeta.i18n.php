@@ -115,6 +115,13 @@ $messages['ja'] = array(
 	'opengraphmeta-desc' => 'Facebookのイイネ！ボタンで使用されるOpenGraphメタタグを追加',
 );
 
+/** Colognian (Ripoarisch)
+ * @author Purodha
+ */
+$messages['ksh'] = array(
+	'opengraphmeta-desc' => 'Deiht de <i lang="en">OpenGraph meta tags</i> em Wiki dobei, di vum „Jefällt mer“-Knopp vun <i lang="en">Facebook</i> jebruch wääde.',
+);
+
 /** Luxembourgish (Lëtzebuergesch)
  * @author Robby
  */
