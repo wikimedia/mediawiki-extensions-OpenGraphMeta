@@ -158,10 +158,11 @@ $messages['pl'] = array(
 );
 
 /** Piedmontese (Piemontèis)
+ * @author Borichèt
  * @author Dragonòt
  */
 $messages['pms'] = array(
-	'opengraphmeta-desc' => 'A gionta ij meta tag OpenGraph dovrà dal boton Like ëd Facebook',
+	'opengraphmeta-desc' => 'A gionta le meta-tichëtte OpenGraph dovrà dal boton Am pias ëd Facebook',
 );
 
 /** Portuguese (Português)
