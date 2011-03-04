@@ -30,6 +30,13 @@ $messages['be-tarask'] = array(
 	'opengraphmeta-desc' => 'Дадае мэта-тэгі OpenGraph, якія выкарыстоўваюцца кнопкай «Падабаецца» ў Facebook',
 );
 
+/** Bulgarian (Български)
+ * @author DCLXVI
+ */
+$messages['bg'] = array(
+	'opengraphmeta-desc' => 'Добавя мета таговете от OpenGraph, използвани от бутона "Харесва ми" на Facebook',
+);
+
 /** Breton (Brezhoneg)
  * @author Fulup
  */
