@@ -193,3 +193,10 @@ $messages['ru'] = array(
 	'opengraphmeta-desc' => 'Добавляет мета-теги OpenGraph, используемые кнопкой Like FaceBook',
 );
 
+/** Tagalog (Tagalog)
+ * @author AnakngAraw
+ */
+$messages['tl'] = array(
+	'opengraphmeta-desc' => 'Nagdaragdag ng mga tatak ng meta ng OpenGraph na ginagamit ng pindutang Like ng Facebook',
+);
+
