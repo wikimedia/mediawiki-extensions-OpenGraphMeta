@@ -186,6 +186,13 @@ $messages['pt-br'] = array(
 	'opengraphmeta-desc' => 'Adiciona as meta tags OpenGraph usadas pelo botão Like do Facebook',
 );
 
+/** Tarandíne (Tarandíne)
+ * @author Joetaras
+ */
+$messages['roa-tara'] = array(
+	'opengraphmeta-desc' => "Aggiunge meta tag OpenGraph ausate da 'u buttone de Facebook Me Piace",
+);
+
 /** Russian (Русский)
  * @author Александр Сигачёв
  */
