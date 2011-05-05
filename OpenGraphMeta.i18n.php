@@ -115,6 +115,13 @@ $messages['id'] = array(
 	'opengraphmeta-desc' => 'Menambahkan tag meta OpenGraph untuk digunakan oleh tombol "Suka" FaceBook',
 );
 
+/** Italian (Italiano)
+ * @author Beta16
+ */
+$messages['it'] = array(
+	'opengraphmeta-desc' => 'Aggiunge i meta-tag OpenGraph usati dal pulsante "Mi piace" di Facebook',
+);
+
 /** Japanese (日本語)
  * @author 青子守歌
  */
