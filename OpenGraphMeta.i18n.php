@@ -22,6 +22,13 @@ $messages['qqq'] = array(
 	'opengraphmeta-desc' => '{{desc}}',
 );
 
+/** Asturian (Asturianu)
+ * @author Xuacu
+ */
+$messages['ast'] = array(
+	'opengraphmeta-desc' => 'Amiesta les meta etiquetes OpenGraph qu\'usa el botón "Presta" de Facebook',
+);
+
 /** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
  * @author EugeneZelenko
  * @author Jim-by
