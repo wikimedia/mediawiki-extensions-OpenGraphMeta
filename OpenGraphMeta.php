@@ -49,7 +49,7 @@ function efSetMainImagePF( $parser, $mainimage ) {
 	$file = Title::newFromText( $mainimage, NS_FILE );
 	$parserOutput->addOutputHook( 'setmainimage', array( 'dbkey' => $file->getDBkey() ) );
 	$parserOutput->eHasMainImageAlready = true;
-	
+
 	return $mainimage;
 }
 
@@ -64,15 +64,15 @@ function efOpenGraphMetaPageHook( &$out, &$sk ) {
 	$wgXhtmlNamespaces["og"] = "http://opengraphprotocol.org/schema/";
 	$title = $out->getTitle();
 	$isMainpage = $title->equals(Title::newMainPage());
-	
+
 	$meta = array();
-	
+
 	$meta["og:type"] = $isMainpage ? "website" : "article";
 	$meta["og:site_name"] = $wgSitename;
 	$meta["og:title"] = $title->getPrefixedText();
 	if ( isset($out->mMainImage) ) {
 		$meta["og:image"] = wfExpandUrl($out->mMainImage->createThumb(100*3, 100));
-	} else if ( $isMainpage ) {
+	} elseif ( $isMainpage ) {
 		$meta["og:image"] = $wgLogo;
 	}
 	if ( isset($out->mDescription) ) // set by Description2 extension, install it if you want proper og:description support
@@ -82,13 +82,13 @@ function efOpenGraphMetaPageHook( &$out, &$sk ) {
 		$meta["fb:app_id"] = $egFacebookAppId;
 	if ( $egFacebookAdmins )
 		$meta["fb:admins"] = $egFacebookAdmins;
-	
+
 	foreach( $meta as $property => $value ) {
 		if ( $value )
 			//$out->addMeta($property, $value ); // FB wants property= instead of name= blech, is that even valid html?
 			$out->addHeadItem("meta:property:$property", "	".Html::element( 'meta', array( 'property' => $property, 'content' => $value ) )."\n");
 	}
-	
+
 	return true;
 }
 
