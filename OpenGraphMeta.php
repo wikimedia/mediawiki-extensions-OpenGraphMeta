@@ -81,7 +81,7 @@ function efOpenGraphMetaPageHook( &$out, &$sk ) {
 	if ( isset($out->mMainImage) && ($out->mMainImage !== false) ) {
 		$meta["og:image"] = wfExpandUrl($out->mMainImage->createThumb(100*3, 100));
 	} else if ( $isMainpage ) {
-		$meta["og:image"] = $wgLogo;
+		$meta["og:image"] = wfExpandUrl($wgLogo);
 	}
 	if ( isset($out->mDescription) ) // set by Description2 extension, install it if you want proper og:description support
 		$meta["og:description"] = $out->mDescription;
