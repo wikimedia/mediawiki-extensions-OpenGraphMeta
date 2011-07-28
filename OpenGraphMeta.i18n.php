@@ -157,6 +157,13 @@ $messages['mk'] = array(
 	'opengraphmeta-desc' => 'Додава метаознаки за OpenGraph што ги користи копчето „Ми се допаѓа“ на Facebook',
 );
 
+/** Malay (Bahasa Melayu)
+ * @author Anakmalaysia
+ */
+$messages['ms'] = array(
+	'opengraphmeta-desc' => 'Membubuh tag meta OpenGraph yang digunakan oleh butang Suka Facebook',
+);
+
 /** Dutch (Nederlands)
  * @author Siebrand
  */
