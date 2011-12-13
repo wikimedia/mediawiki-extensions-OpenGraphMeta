@@ -29,7 +29,7 @@ $wgExtensionCredits['parserhook'][] = array (
 	"name" => "OpenGraphMeta",
 	"author" => "[http://mediawiki.org/wiki/User:Dantman Daniel Friesen]",
 	'descriptionmsg' => 'opengraphmeta-desc',
-	'url' => 'http://www.mediawiki.org/wiki/Extension:OpenGraphMeta',
+	'url' => 'https://www.mediawiki.org/wiki/Extension:OpenGraphMeta',
 );
 
 $dir = dirname( __FILE__ );
