@@ -104,9 +104,13 @@ function efOpenGraphMetaPageHook( &$out, &$sk ) {
 	}
 
 	foreach( $meta as $property => $value ) {
-		if ( $value )
-			//$out->addMeta($property, $value ); // FB wants property= instead of name= blech, is that even valid html?
-			$out->addHeadItem("meta:property:$property", "	".Html::element( 'meta', array( 'property' => $property, 'content' => $value ) )."\n");
+		if ( $value ) {
+			if ( isset( OutputPage::$metaAttrPrefixes ) && isset( OutputPage::$metaAttrPrefixes['property'] ) ) {
+				$out->addMeta( "property:$property", $value );
+			} else {
+				$out->addHeadItem("meta:property:$property", "	".Html::element( 'meta', array( 'property' => $property, 'content' => $value ) )."\n");
+			}
+		}
 	}
 
 	return true;
