@@ -73,6 +73,13 @@ $messages['dsb'] = array(
 	'opengraphmeta-desc' => 'Pśidawa metatoflicki OpenGraph, kótarež wužywaju se pśez tłocašk "Spodoba se mi" we FaceBooku',
 );
 
+/** Spanish (Español)
+ * @author Armando-Martin
+ */
+$messages['es'] = array(
+	'opengraphmeta-desc' => 'Añade meta-etiquetas OpenGraph empleadas por el botón "Me gusta" de Facebook',
+);
+
 /** French (Français)
  * @author Peter17
  */
@@ -164,18 +171,18 @@ $messages['ms'] = array(
 	'opengraphmeta-desc' => 'Membubuh tag meta OpenGraph yang digunakan oleh butang Suka Facebook',
 );
 
-/** Dutch (Nederlands)
- * @author Siebrand
- */
-$messages['nl'] = array(
-	'opengraphmeta-desc' => 'Voegt metalabels voor OpenGraph toe die door Facebookknop "Vind ik leuk" worden gebruikt',
-);
-
 /** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
  * @author Nghtwlkr
  */
 $messages['nb'] = array(
 	'opengraphmeta-desc' => 'Legger til OpenGraph-meta-merkelapper brukt av Facebooks like-knapp',
+);
+
+/** Dutch (Nederlands)
+ * @author Siebrand
+ */
+$messages['nl'] = array(
+	'opengraphmeta-desc' => 'Voegt metalabels voor OpenGraph toe die door Facebookknop "Vind ik leuk" worden gebruikt',
 );
 
 /** Polish (Polski)
