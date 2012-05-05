@@ -22,6 +22,13 @@ $messages['qqq'] = array(
 	'opengraphmeta-desc' => '{{desc}}',
 );
 
+/** Arabic (العربية)
+ * @author DRIHEM
+ */
+$messages['ar'] = array(
+	'opengraphmeta-desc' => 'يضيف وسم ميتا OpenGraph المستخدم من طرف زر أحب الخاص بالفايسبوك',
+);
+
 /** Asturian (Asturianu)
  * @author Xuacu
  */
