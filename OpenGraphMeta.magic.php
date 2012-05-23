@@ -15,6 +15,11 @@ $magicWords['ar'] = array(
 	'setmainimage' => array( 0, 'ضبط_صورة_رئيسية' ),
 );
 
+/** German (Deutsch) */
+$magicWords['de'] = array(
+	'setmainimage' => array( 0, 'setze_hauptbild' ),
+);
+
 /** Persian (فارسی) */
 $magicWords['fa'] = array(
 	'setmainimage' => array( 0, 'تنظیم_نگاره_اصلی' ),
