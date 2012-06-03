@@ -150,6 +150,13 @@ $messages['ja'] = array(
 	'opengraphmeta-desc' => 'Facebookのイイネ！ボタンで使用されるOpenGraphメタタグを追加',
 );
 
+/** Korean (한국어)
+ * @author 아라
+ */
+$messages['ko'] = array(
+	'opengraphmeta-desc' => '페이스북의 좋아요 버튼에 사용되는 OpenGraph 메타 태그 추가',
+);
+
 /** Colognian (Ripoarisch)
  * @author Purodha
  */
