@@ -29,7 +29,7 @@ $messages['ar'] = array(
 	'opengraphmeta-desc' => 'يضيف وسم ميتا OpenGraph المستخدم من طرف زر أحب الخاص بالفايسبوك',
 );
 
-/** Asturian (Asturianu)
+/** Asturian (asturianu)
  * @author Xuacu
  */
 $messages['ast'] = array(
@@ -44,21 +44,21 @@ $messages['be-tarask'] = array(
 	'opengraphmeta-desc' => 'Дадае мэта-тэгі OpenGraph, якія выкарыстоўваюцца кнопкай «Падабаецца» ў Facebook',
 );
 
-/** Bulgarian (Български)
+/** Bulgarian (български)
  * @author DCLXVI
  */
 $messages['bg'] = array(
 	'opengraphmeta-desc' => 'Добавя мета таговете от OpenGraph, използвани от бутона "Харесва ми" на Facebook',
 );
 
-/** Breton (Brezhoneg)
+/** Breton (brezhoneg)
  * @author Fulup
  */
 $messages['br'] = array(
 	'opengraphmeta-desc' => 'Ouzhpennañ a ra meta-tikedennoù OpenGraph implijet gant bouton "Plijout a ra din" Facebook',
 );
 
-/** Bosnian (Bosanski)
+/** Bosnian (bosanski)
  * @author CERminator
  */
 $messages['bs'] = array(
@@ -80,14 +80,14 @@ $messages['dsb'] = array(
 	'opengraphmeta-desc' => 'Pśidawa metatoflicki OpenGraph, kótarež wužywaju se pśez tłocašk "Spodoba se mi" we FaceBooku',
 );
 
-/** Spanish (Español)
+/** Spanish (español)
  * @author Armando-Martin
  */
 $messages['es'] = array(
 	'opengraphmeta-desc' => 'Añade meta-etiquetas OpenGraph empleadas por el botón "Me gusta" de Facebook',
 );
 
-/** French (Français)
+/** French (français)
  * @author Peter17
  */
 $messages['fr'] = array(
@@ -122,7 +122,7 @@ $messages['hsb'] = array(
 	'opengraphmeta-desc' => 'Přidawa metafafličku OpenGraph, kotrež so přez tłóčatko "Lubi so mi" we FaceBooku wužiwaja',
 );
 
-/** Interlingua (Interlingua)
+/** Interlingua (interlingua)
  * @author McDutchie
  */
 $messages['ia'] = array(
@@ -136,7 +136,7 @@ $messages['id'] = array(
 	'opengraphmeta-desc' => 'Menambahkan tag meta OpenGraph untuk digunakan oleh tombol "Suka" FaceBook',
 );
 
-/** Italian (Italiano)
+/** Italian (italiano)
  * @author Beta16
  */
 $messages['it'] = array(
@@ -171,7 +171,7 @@ $messages['lb'] = array(
 	'opengraphmeta-desc' => 'Setzt "OpenGraph"-Meta-Tags derbäi, déi vum Facebook-Knäppchen "Like" benotzt ginn',
 );
 
-/** Macedonian (Македонски)
+/** Macedonian (македонски)
  * @author Bjankuloski06
  */
 $messages['mk'] = array(
@@ -199,7 +199,7 @@ $messages['nl'] = array(
 	'opengraphmeta-desc' => 'Voegt metalabels voor OpenGraph toe die door Facebookknop "Vind ik leuk" worden gebruikt',
 );
 
-/** Polish (Polski)
+/** Polish (polski)
  * @author Sp5uhe
  */
 $messages['pl'] = array(
@@ -214,28 +214,28 @@ $messages['pms'] = array(
 	'opengraphmeta-desc' => 'A gionta le meta-tichëtte OpenGraph dovrà dal boton Am pias ëd Facebook',
 );
 
-/** Portuguese (Português)
+/** Portuguese (português)
  * @author Hamilton Abreu
  */
 $messages['pt'] = array(
 	'opengraphmeta-desc' => 'Adiciona as meta tags OpenGraph usadas pelo botão Like do Facebook',
 );
 
-/** Brazilian Portuguese (Português do Brasil)
+/** Brazilian Portuguese (português do Brasil)
  * @author Giro720
  */
 $messages['pt-br'] = array(
 	'opengraphmeta-desc' => 'Adiciona as meta tags OpenGraph usadas pelo botão Like do Facebook',
 );
 
-/** Tarandíne (Tarandíne)
+/** tarandíne (tarandíne)
  * @author Joetaras
  */
 $messages['roa-tara'] = array(
 	'opengraphmeta-desc' => "Aggiunge meta tag OpenGraph ausate da 'u buttone de Facebook Me Piace",
 );
 
-/** Russian (Русский)
+/** Russian (русский)
  * @author Александр Сигачёв
  */
 $messages['ru'] = array(
