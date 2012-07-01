@@ -36,7 +36,7 @@ $messages['ast'] = array(
 	'opengraphmeta-desc' => 'Amiesta les meta etiquetes OpenGraph qu\'usa el botón "Presta" de Facebook',
 );
 
-/** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
  * @author EugeneZelenko
  * @author Jim-by
  */
@@ -73,7 +73,7 @@ $messages['de'] = array(
 	'opengraphmeta-desc' => 'Fügt „OpenGraph“-Meta-Elemente hinzu, die von Facebooks Schaltfläche „Gefällt mir“ verwendet werden',
 );
 
-/** Lower Sorbian (Dolnoserbski)
+/** Lower Sorbian (dolnoserbski)
  * @author Michawiki
  */
 $messages['dsb'] = array(
@@ -94,7 +94,7 @@ $messages['fr'] = array(
 	'opengraphmeta-desc' => 'Ajoute des méta-étiquettes OpenGraph utilisées par le bouton « j’aime » de Facebook',
 );
 
-/** Galician (Galego)
+/** Galician (galego)
  * @author Toliño
  */
 $messages['gl'] = array(
@@ -115,7 +115,7 @@ $messages['he'] = array(
 	'opengraphmeta-desc' => 'הוספת תגיות על של OpenGraph המשמשות את לחצן ה"אהבתי" של Facebook',
 );
 
-/** Upper Sorbian (Hornjoserbsce)
+/** Upper Sorbian (hornjoserbsce)
  * @author Michawiki
  */
 $messages['hsb'] = array(
