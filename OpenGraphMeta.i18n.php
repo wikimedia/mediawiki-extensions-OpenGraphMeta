@@ -185,7 +185,7 @@ $messages['ms'] = array(
 	'opengraphmeta-desc' => 'Membubuh tag meta OpenGraph yang digunakan oleh butang Suka Facebook',
 );
 
-/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
+/** Norwegian Bokmål (‪norsk (bokmål)‬)
  * @author Nghtwlkr
  */
 $messages['nb'] = array(
