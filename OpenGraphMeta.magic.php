@@ -20,6 +20,11 @@ $magicWords['de'] = array(
 	'setmainimage' => array( 0, 'setze_hauptbild' ),
 );
 
+/** Zazaki (Zazaki) */
+$magicWords['diq'] = array(
+	'setmainimage' => array( 0, 'sazêserêresiman' ),
+);
+
 /** Persian (فارسی) */
 $magicWords['fa'] = array(
 	'setmainimage' => array( 0, 'تنظیم_نگاره_اصلی' ),
