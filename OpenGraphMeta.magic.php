@@ -50,12 +50,12 @@ $magicWords['ru'] = array(
 	'setmainimage' => array( 0, 'установитьглавноеизображение', 'установить_главное_изображение' ),
 );
 
-/** Serbian (Cyrillic script) (‪српски (ћирилица)‬) */
+/** Serbian (Cyrillic script) (српски (ћирилица)‎) */
 $magicWords['sr-ec'] = array(
 	'setmainimage' => array( 0, 'поставиглавнуслику', 'постави_главну_слику' ),
 );
 
-/** Serbian (Latin script) (‪srpski (latinica)‬) */
+/** Serbian (Latin script) (srpski (latinica)‎) */
 $magicWords['sr-el'] = array(
 	'setmainimage' => array( 0, 'postavi_glavnu_sliku' ),
 );
