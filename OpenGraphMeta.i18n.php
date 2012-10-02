@@ -36,7 +36,7 @@ $messages['ast'] = array(
 	'opengraphmeta-desc' => 'Amiesta les meta etiquetes OpenGraph qu\'usa el botón "Presta" de Facebook',
 );
 
-/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (беларуская (тарашкевіца)‎)
  * @author EugeneZelenko
  * @author Jim-by
  */
@@ -185,7 +185,7 @@ $messages['ms'] = array(
 	'opengraphmeta-desc' => 'Membubuh tag meta OpenGraph yang digunakan oleh butang Suka Facebook',
 );
 
-/** Norwegian Bokmål (‪norsk (bokmål)‬)
+/** Norwegian Bokmål (norsk (bokmål)‎)
  * @author Nghtwlkr
  */
 $messages['nb'] = array(
