@@ -248,4 +248,3 @@ $messages['ru'] = array(
 $messages['tl'] = array(
 	'opengraphmeta-desc' => 'Nagdaragdag ng mga tatak ng meta ng OpenGraph na ginagamit ng pindutang Like ng Facebook',
 );
-
