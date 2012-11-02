@@ -248,3 +248,10 @@ $messages['ru'] = array(
 $messages['tl'] = array(
 	'opengraphmeta-desc' => 'Nagdaragdag ng mga tatak ng meta ng OpenGraph na ginagamit ng pindutang Like ng Facebook',
 );
+
+/** Simplified Chinese (中文（简体）‎)
+ * @author Yfdyh000
+ */
+$messages['zh-hans'] = array(
+	'opengraphmeta-desc' => '增加 OpenGraph 元标签以供 Facebook 的 Like 按钮使用',
+);
