@@ -40,6 +40,11 @@ $magicWords['mk'] = array(
 	'setmainimage' => array( 0, 'поставиглавнастраница' ),
 );
 
+/** Malayalam (മലയാളം) */
+$magicWords['ml'] = array(
+	'setmainimage' => array( 0, 'പ്രധാനചിത്രംസജ്ജീകരിക്കൽ' ),
+);
+
 /** Dutch (Nederlands) */
 $magicWords['nl'] = array(
 	'setmainimage' => array( 0, 'hoofdafbeeldinginstellen' ),
