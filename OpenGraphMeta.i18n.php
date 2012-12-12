@@ -249,6 +249,13 @@ $messages['tl'] = array(
 	'opengraphmeta-desc' => 'Nagdaragdag ng mga tatak ng meta ng OpenGraph na ginagamit ng pindutang Like ng Facebook',
 );
 
+/** Ukrainian (українська)
+ * @author Base
+ */
+$messages['uk'] = array(
+	'opengraphmeta-desc' => 'Додає мета-теґи OpenGraph, що використовуються кнопкою Like Facebook',
+);
+
 /** Simplified Chinese (中文（简体）‎)
  * @author Yfdyh000
  */
