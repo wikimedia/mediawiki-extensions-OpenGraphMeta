@@ -16,10 +16,11 @@ $messages['en'] = array(
 );
 
 /** Message documentation (Message documentation)
+ * @author Shirayuki
  * @author The Evil IP address
  */
 $messages['qqq'] = array(
-	'opengraphmeta-desc' => '{{desc}}',
+	'opengraphmeta-desc' => '{{desc|name=Open Graph Meta|url=http://www.mediawiki.org/wiki/Extension:OpenGraphMeta}}',
 );
 
 /** Arabic (العربية)
@@ -144,10 +145,11 @@ $messages['it'] = array(
 );
 
 /** Japanese (日本語)
+ * @author Shirayuki
  * @author 青子守歌
  */
 $messages['ja'] = array(
-	'opengraphmeta-desc' => 'Facebookのイイネ！ボタンで使用されるOpenGraphメタタグを追加',
+	'opengraphmeta-desc' => 'Facebook の「いいね!」ボタンで使用される OpenGraph メタタグを追加する',
 );
 
 /** Korean (한국어)
