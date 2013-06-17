@@ -264,3 +264,10 @@ $messages['uk'] = array(
 $messages['zh-hans'] = array(
 	'opengraphmeta-desc' => '增加 OpenGraph 元标签以供 Facebook 的 Like 按钮使用',
 );
+
+/** Traditional Chinese (中文（繁體）‎)
+ * @author Justincheng12345
+ */
+$messages['zh-hant'] = array(
+	'opengraphmeta-desc' => '增加OpenGraph元標籤以供Facebook的讚好按鈕使用',
+);
