@@ -30,6 +30,11 @@ $magicWords['fa'] = array(
 	'setmainimage' => array( 0, 'تنظیم_نگاره_اصلی' ),
 );
 
+/** French (français) */
+$magicWords['fr'] = array(
+	'setmainimage' => array( 0, 'imageprincipale' ),
+);
+
 /** Korean (한국어) */
 $magicWords['ko'] = array(
 	'setmainimage' => array( 0, '주그림설정' ),
