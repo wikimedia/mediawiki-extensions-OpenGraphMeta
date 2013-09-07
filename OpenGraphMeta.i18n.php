@@ -201,6 +201,13 @@ $messages['nl'] = array(
 	'opengraphmeta-desc' => 'Voegt metalabels voor OpenGraph toe die door Facebookknop "Vind ik leuk" worden gebruikt',
 );
 
+/** Occitan (occitan)
+ * @author Cedric31
+ */
+$messages['oc'] = array(
+	'opengraphmeta-desc' => "Apond de metaetiquetas OpenGraph utilizadas pel boton « m'agrada » de Facebook",
+);
+
 /** Polish (polski)
  * @author Sp5uhe
  */
