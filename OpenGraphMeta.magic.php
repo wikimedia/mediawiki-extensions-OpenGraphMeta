@@ -22,7 +22,7 @@ $magicWords['de'] = array(
 
 /** Zazaki (Zazaki) */
 $magicWords['diq'] = array(
-	'setmainimage' => array( 0, 'sazêserêresiman' ),
+	'setmainimage' => array( 0, 'sazéseréresiman' ),
 );
 
 /** Persian (فارسی) */

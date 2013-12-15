@@ -171,7 +171,7 @@ $messages['ksh'] = array(
  * @author Soued031
  */
 $messages['lb'] = array(
-	'opengraphmeta-desc' => 'Setzt "OpenGraph"-Meta-Tags dobäi, déi vum Facebook-Knäppchen "Like" benotzt ginn',
+	'opengraphmeta-desc' => 'Setzt "OpenGraph"-Meta-Tags derbäi, déi vum Facebook-Knäppchen "Like" benotzt ginn',
 );
 
 /** Macedonian (македонски)
