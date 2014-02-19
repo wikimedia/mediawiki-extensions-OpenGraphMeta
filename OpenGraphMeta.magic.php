@@ -15,6 +15,11 @@ $magicWords['ar'] = array(
 	'setmainimage' => array( 0, 'ضبط_صورة_رئيسية' ),
 );
 
+/** Egyptian Spoken Arabic (مصرى) */
+$magicWords['arz'] = array(
+	'setmainimage' => array( 0, 'ضبط_صوره_رئيسيه' ),
+);
+
 /** German (Deutsch) */
 $magicWords['de'] = array(
 	'setmainimage' => array( 0, 'setze_hauptbild' ),
@@ -73,4 +78,9 @@ $magicWords['sr-el'] = array(
 /** Ukrainian (українська) */
 $magicWords['uk'] = array(
 	'setmainimage' => array( 0, 'встановити_головне_зображення' ),
+);
+
+/** Simplified Chinese (中文（简体）‎) */
+$magicWords['zh-hans'] = array(
+	'setmainimage' => array( 0, '设置主图像' ),
 );
