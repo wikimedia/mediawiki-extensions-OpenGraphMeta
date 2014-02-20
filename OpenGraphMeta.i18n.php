@@ -88,6 +88,13 @@ $messages['es'] = array(
 	'opengraphmeta-desc' => 'Añade meta-etiquetas OpenGraph empleadas por el botón "Me gusta" de Facebook',
 );
 
+/** Persian (فارسی)
+ * @author Armin1392
+ */
+$messages['fa'] = array(
+	'opengraphmeta-desc' => 'افزودن برچسب‌های متای اُپن‌گرف توسط دکمهٔ لایک فیس‌بوک',
+);
+
 /** French (français)
  * @author Peter17
  */
