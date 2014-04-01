@@ -21,6 +21,7 @@ $wgExtensionCredits['parserhook'][] = array(
 
 $dir = dirname( __FILE__ );
 $wgExtensionMessagesFiles['OpenGraphMetaMagic'] = $dir . '/OpenGraphMeta.magic.php';
+$wgMessagesDirs['OpenGraphMeta'] = __DIR__ . '/i18n';
 $wgExtensionMessagesFiles['OpenGraphMeta'] = $dir . '/OpenGraphMeta.i18n.php';
 
 $wgHooks['ParserFirstCallInit'][] = 'efOpenGraphMetaParserInit';
