@@ -84,3 +84,8 @@ $magicWords['uk'] = array(
 $magicWords['zh-hans'] = array(
 	'setmainimage' => array( 0, '设置主图像' ),
 );
+
+/** Traditional Chinese (中文（繁體）‎) */
+$magicWords['zh-hant'] = array(
+	'setmainimage' => array( 0, '設定主要圖像' ),
+);
