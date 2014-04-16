@@ -1,9 +1,9 @@
 {
-    "@metadata": {
-        "authors": [
-            "Shirayuki",
-            "The Evil IP address"
-        ]
-    },
-    "opengraphmeta-desc": "{{desc|name=Open Graph Meta|url=http://www.mediawiki.org/wiki/Extension:OpenGraphMeta}}"
+	"@metadata": {
+		"authors": [
+			"Shirayuki",
+			"The Evil IP address"
+		]
+	},
+	"opengraphmeta-desc": "{{desc|name=Open Graph Meta|url=http://www.mediawiki.org/wiki/Extension:OpenGraphMeta}}"
 }

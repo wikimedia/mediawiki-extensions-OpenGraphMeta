@@ -1,8 +1,8 @@
 {
-    "@metadata": {
-        "authors": [
-            "Armando-Martin"
-        ]
-    },
-    "opengraphmeta-desc": "Añade meta-etiquetas OpenGraph empleadas por el botón \"Me gusta\" de Facebook"
+	"@metadata": {
+		"authors": [
+			"Armando-Martin"
+		]
+	},
+	"opengraphmeta-desc": "Añade meta-etiquetas OpenGraph empleadas por el botón \"Me gusta\" de Facebook"
 }

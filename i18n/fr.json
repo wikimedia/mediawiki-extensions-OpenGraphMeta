@@ -1,8 +1,8 @@
 {
-    "@metadata": {
-        "authors": [
-            "Peter17"
-        ]
-    },
-    "opengraphmeta-desc": "Ajoute des méta-étiquettes OpenGraph utilisées par le bouton « j’aime » de Facebook"
+	"@metadata": {
+		"authors": [
+			"Peter17"
+		]
+	},
+	"opengraphmeta-desc": "Ajoute des méta-étiquettes OpenGraph utilisées par le bouton « j’aime » de Facebook"
 }
