@@ -15,7 +15,7 @@ $magicWords['ar'] = array(
 	'setmainimage' => array( 0, 'ضبط_صورة_رئيسية' ),
 );
 
-/** Egyptian Spoken Arabic (مصرى) */
+/** Egyptian Arabic (مصرى) */
 $magicWords['arz'] = array(
 	'setmainimage' => array( 0, 'ضبط_صوره_رئيسيه' ),
 );
