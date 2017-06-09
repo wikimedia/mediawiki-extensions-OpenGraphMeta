@@ -1,0 +1,32 @@
+{
+	"name": "OpenGraphMeta",
+	"version": "0.5.0",
+	"author": [
+		"[http://danf.ca/mw/ Daniel Friesen]"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:OpenGraphMeta",
+	"descriptionmsg": "opengraphmeta-desc",
+	"license-name": "GPL-2.0+",
+	"type": "parserhook",
+	"config": {
+		"_prefix": "eg",
+		"FacebookAppId": null,
+		"FacebookAdmins": null
+	},
+	"AutoloadClasses": {
+		"OpenGraphMeta": "OpenGraphMeta.class.php"
+	},
+	"ExtensionMessagesFiles": {
+		"OpenGraphMetaMagic": "OpenGraphMeta.magic.php"
+	},
+	"MessagesDirs": {
+		"OpenGraphMeta": [
+			"i18n"
+		]
+	},
+	"Hooks": {
+		"OutputPageParserOutput": "OpenGraphMeta::onOutputPageParserOutput",
+		"ParserFirstCallInit": "OpenGraphMeta::onParserFirstCallInit"
+	},
+	"manifest_version": 1
+}
