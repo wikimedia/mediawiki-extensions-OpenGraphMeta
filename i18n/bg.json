@@ -1,8 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"DCLXVI"
+			"DCLXVI",
+			"StanProg"
 		]
 	},
-	"opengraphmeta-desc": "Добавя мета таговете от OpenGraph, използвани от бутона \"Харесва ми\" на Facebook"
+	"opengraphmeta-desc": "Добавя мета таговете от OpenGraph, използвани от бутона „Харесва ми“ на Facebook"
 }
