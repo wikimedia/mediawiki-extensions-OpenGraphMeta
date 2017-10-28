@@ -44,7 +44,7 @@ function efSetMainImagePF( $parser, $mainimage ) {
 
 $wgParserOutputHooks['setmainimage'] = 'efSetMainImagePH';
 function efSetMainImagePH( $out, $parserOutput, $data ) {
-	$out->mMainImage = wfFindFile( Title::newFromDBkey($data['dbkey'], NS_FILE) );
+	$out->mMainImage = wfFindFile($data['dbkey']);
 }
 
 $wgHooks['BeforePageDisplay'][] = 'efOpenGraphMetaPageHook';
