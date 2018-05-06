@@ -73,7 +73,12 @@ class OpenGraphMeta {
 
 		if ( ( $mainImage !== false ) ) {
 			if ( is_object( $mainImage ) ) {
-				$meta['og:image'] = wfExpandUrl( $mainImage->createThumb( 100 * 3, 100 ) );
+				// The official OpenGraph documentation says:
+				// - thumbnail previews can't be smaller than 200px x 200px
+				// - thumbnail previews look best at 1200px x 630px
+				// @see https://developers.facebook.com/docs/sharing/best-practices/
+				// @see https://phabricator.wikimedia.org/T193986
+				$meta['og:image'] = wfExpandUrl( $mainImage->createThumb( 1200, 630 ) );
 			} else {
 				// In some edge-cases we won't have defined an object but rather a full URL.
 				$meta['og:image'] = $mainImage;
