@@ -43,7 +43,7 @@ class OpenGraphMeta {
 
 		$setMainImage = $parserOutput->getExtensionData( 'setmainimage' );
 		if ( $setMainImage !== null ) {
-			$mainImage = wfFindFile( Title::newFromDBkey( $setMainImage ) );
+			$mainImage = wfFindFile( Title::newFromDBkey( "File:" . $setMainImage ) );
 		} else {
 			$mainImage = false;
 		}
