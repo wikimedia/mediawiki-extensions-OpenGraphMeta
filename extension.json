@@ -1,8 +1,9 @@
 {
 	"name": "OpenGraphMeta",
-	"version": "0.5.0",
+	"version": "0.5.1",
 	"author": [
-		"[http://danf.ca/mw/ Daniel Friesen]"
+		"[http://danf.ca/mw/ Daniel Friesen]",
+		"Southparkfan"
 	],
 	"url": "https://www.mediawiki.org/wiki/Extension:OpenGraphMeta",
 	"descriptionmsg": "opengraphmeta-desc",

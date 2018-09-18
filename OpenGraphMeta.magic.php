@@ -8,6 +8,7 @@ $magicWords = array();
 /** English (English) */
 $magicWords['en'] = array(
 	'setmainimage' => array( 0, 'setmainimage' ),
+	'setmaintitle' => array( 0, 'setmaintitle' ),
 );
 
 /** Arabic (العربية) */
