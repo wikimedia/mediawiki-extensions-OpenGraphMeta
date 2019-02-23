@@ -13,12 +13,10 @@
 class OpenGraphMeta {
 	/**
 	 * @param Parser $parser
-	 * @return bool
 	 */
 	public static function onParserFirstCallInit( Parser $parser ) {
-		$parser->setFunctionHook( 'setmainimage', array( __CLASS__, 'setMainImagePF' ) );
-		$parser->setFunctionHook( 'setmaintitle', array( __CLASS__, 'setMainTitlePF' ) );
-		return true;
+		$parser->setFunctionHook( 'setmainimage', [ __CLASS__, 'setMainImagePF' ] );
+		$parser->setFunctionHook( 'setmaintitle', [ __CLASS__, 'setMainTitlePF' ] );
 	}
 
 	/**
@@ -40,10 +38,10 @@ class OpenGraphMeta {
 	}
 
 	/**
-	* @param Parser $parser
-	* @param string $mainTitle
-	* @return string
-	*/
+	 * @param Parser $parser
+	 * @param string $mainTitle
+	 * @return string
+	 */
 	public static function setMainTitlePF( Parser $parser, $mainTitle ) {
 		$parserOutput = $parser->getOutput();
 		$setMainTitle = $parserOutput->getExtensionData( 'setmaintitle' );
@@ -57,10 +55,9 @@ class OpenGraphMeta {
 	}
 
 	/**
-	* @param OutputPage &$out
-	* @param ParserOutput $parserOutput
-	* @return bool
-	*/
+	 * @param OutputPage &$out
+	 * @param ParserOutput $parserOutput
+	 */
 	public static function onOutputPageParserOutput( OutputPage &$out, ParserOutput $parserOutput ) {
 		global $wgLogo, $wgSitename, $wgXhtmlNamespaces, $egFacebookAppId, $egFacebookAdmins;
 
@@ -77,7 +74,7 @@ class OpenGraphMeta {
 		$title = $out->getTitle();
 		$isMainpage = $title->isMainPage();
 
-		$meta = array();
+		$meta = [];
 
 		if ( $isMainpage ) {
 			$meta['og:type'] = 'website';
@@ -85,7 +82,7 @@ class OpenGraphMeta {
 		} else {
 			$meta['og:type'] = 'article';
 			$meta['og:site_name'] = $wgSitename;
-			// Try to chose the most appropriate title for showing in news feeds.
+			// Try to choose the most appropriate title for showing in news feeds.
 			if (
 				( defined( 'NS_BLOG_ARTICLE' ) && $title->getNamespace() == NS_BLOG_ARTICLE ) ||
 				( defined( 'NS_BLOG_ARTICLE_TALK' ) && $title->getNamespace() == NS_BLOG_ARTICLE_TALK )
@@ -128,19 +125,17 @@ class OpenGraphMeta {
 			$meta['fb:admins'] = $egFacebookAdmins;
 		}
 
-		foreach( $meta as $property => $value ) {
+		foreach ( $meta as $property => $value ) {
 			if ( $value ) {
 				$out->addHeadItem(
 					"meta:property:$property",
-					'	' . Html::element( 'meta', array(
+					'	' . Html::element( 'meta', [
 						'property' => $property,
 						'content' => $value
-					) ) . "\n"
+					] ) . "\n"
 				);
 			}
 		}
-
-		return true;
 	}
 
 }

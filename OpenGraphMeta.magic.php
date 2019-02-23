@@ -3,90 +3,90 @@
  *
  */
 
-$magicWords = array();
+$magicWords = [];
 
-/** English (English) */
-$magicWords['en'] = array(
-	'setmainimage' => array( 0, 'setmainimage' ),
-	'setmaintitle' => array( 0, 'setmaintitle' ),
-);
+/** English */
+$magicWords['en'] = [
+	'setmainimage' => [ 0, 'setmainimage' ],
+	'setmaintitle' => [ 0, 'setmaintitle' ],
+];
 
 /** Arabic (العربية) */
-$magicWords['ar'] = array(
-	'setmainimage' => array( 0, 'ضبط_صورة_رئيسية' ),
-);
+$magicWords['ar'] = [
+	'setmainimage' => [ 0, 'ضبط_صورة_رئيسية' ],
+];
 
 /** Egyptian Arabic (مصرى) */
-$magicWords['arz'] = array(
-	'setmainimage' => array( 0, 'ضبط_صوره_رئيسيه' ),
-);
+$magicWords['arz'] = [
+	'setmainimage' => [ 0, 'ضبط_صوره_رئيسيه' ],
+];
 
 /** German (Deutsch) */
-$magicWords['de'] = array(
-	'setmainimage' => array( 0, 'setze_hauptbild' ),
-);
+$magicWords['de'] = [
+	'setmainimage' => [ 0, 'setze_hauptbild' ],
+];
 
 /** Zazaki (Zazaki) */
-$magicWords['diq'] = array(
-	'setmainimage' => array( 0, 'sazéseréresiman' ),
-);
+$magicWords['diq'] = [
+	'setmainimage' => [ 0, 'sazéseréresiman' ],
+];
 
 /** Persian (فارسی) */
-$magicWords['fa'] = array(
-	'setmainimage' => array( 0, 'تنظیم_نگاره_اصلی' ),
-);
+$magicWords['fa'] = [
+	'setmainimage' => [ 0, 'تنظیم_نگاره_اصلی' ],
+];
 
 /** French (français) */
-$magicWords['fr'] = array(
-	'setmainimage' => array( 0, 'imageprincipale' ),
-);
+$magicWords['fr'] = [
+	'setmainimage' => [ 0, 'imageprincipale' ],
+];
 
 /** Korean (한국어) */
-$magicWords['ko'] = array(
-	'setmainimage' => array( 0, '주그림설정' ),
-);
+$magicWords['ko'] = [
+	'setmainimage' => [ 0, '주그림설정' ],
+];
 
 /** Macedonian (македонски) */
-$magicWords['mk'] = array(
-	'setmainimage' => array( 0, 'поставиглавнастраница' ),
-);
+$magicWords['mk'] = [
+	'setmainimage' => [ 0, 'поставиглавнастраница' ],
+];
 
 /** Malayalam (മലയാളം) */
-$magicWords['ml'] = array(
-	'setmainimage' => array( 0, 'പ്രധാനചിത്രംസജ്ജീകരിക്കൽ' ),
-);
+$magicWords['ml'] = [
+	'setmainimage' => [ 0, 'പ്രധാനചിത്രംസജ്ജീകരിക്കൽ' ],
+];
 
 /** Dutch (Nederlands) */
-$magicWords['nl'] = array(
-	'setmainimage' => array( 0, 'hoofdafbeeldinginstellen' ),
-);
+$magicWords['nl'] = [
+	'setmainimage' => [ 0, 'hoofdafbeeldinginstellen' ],
+];
 
 /** Russian (русский) */
-$magicWords['ru'] = array(
-	'setmainimage' => array( 0, 'установитьглавноеизображение', 'установить_главное_изображение' ),
-);
+$magicWords['ru'] = [
+	'setmainimage' => [ 0, 'установитьглавноеизображение', 'установить_главное_изображение' ],
+];
 
 /** Serbian (Cyrillic script) (српски (ћирилица)‎) */
-$magicWords['sr-ec'] = array(
-	'setmainimage' => array( 0, 'поставиглавнуслику', 'постави_главну_слику' ),
-);
+$magicWords['sr-ec'] = [
+	'setmainimage' => [ 0, 'поставиглавнуслику', 'постави_главну_слику' ],
+];
 
 /** Serbian (Latin script) (srpski (latinica)‎) */
-$magicWords['sr-el'] = array(
-	'setmainimage' => array( 0, 'postavi_glavnu_sliku' ),
-);
+$magicWords['sr-el'] = [
+	'setmainimage' => [ 0, 'postavi_glavnu_sliku' ],
+];
 
 /** Ukrainian (українська) */
-$magicWords['uk'] = array(
-	'setmainimage' => array( 0, 'встановити_головне_зображення' ),
-);
+$magicWords['uk'] = [
+	'setmainimage' => [ 0, 'встановити_головне_зображення' ],
+];
 
 /** Simplified Chinese (中文（简体）‎) */
-$magicWords['zh-hans'] = array(
-	'setmainimage' => array( 0, '设置主图像' ),
-);
+$magicWords['zh-hans'] = [
+	'setmainimage' => [ 0, '设置主图像' ],
+];
 
 /** Traditional Chinese (中文（繁體）‎) */
-$magicWords['zh-hant'] = array(
-	'setmainimage' => array( 0, '設定主要圖像' ),
-);
+$magicWords['zh-hant'] = [
+	'setmainimage' => [ 0, '設定主要圖像' ],
+];
