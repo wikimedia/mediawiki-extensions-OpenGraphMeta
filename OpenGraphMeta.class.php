@@ -32,7 +32,9 @@ class OpenGraphMeta {
 		}
 
 		$file = Title::newFromText( $mainImage, NS_FILE );
-		$parserOutput->setExtensionData( 'setmainimage', $file->getDBkey() );
+		if ( $file !== null ) {
+			$parserOutput->setExtensionData( 'setmainimage', $file->getDBkey() );
+		}
 
 		return $mainImage;
 	}
