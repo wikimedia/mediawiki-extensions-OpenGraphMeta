@@ -67,7 +67,7 @@ class OpenGraphMeta {
 		$setMainTitle = $parserOutput->getExtensionData( 'setmaintitle' );
 
 		if ( $setMainImage !== null ) {
-			$mainImage = wfFindFile( Title::newFromDBkey( $setMainImage ) );
+			$mainImage = wfFindFile( Title::newFromText( $setMainImage, NS_FILE ) );
 		} else {
 			$mainImage = false;
 		}
@@ -125,6 +125,12 @@ class OpenGraphMeta {
 		}
 		if ( $egFacebookAdmins ) {
 			$meta['fb:admins'] = $egFacebookAdmins;
+		}
+
+		// Add og:image to <meta> tags instead of as a <head> item to get it earlier in the page
+		if ( isset( $meta['og:image'] ) ) {
+			$out->addMeta( 'og:image', $meta['og:image'] );
+			unset( $meta['og:image'] );
 		}
 
 		foreach ( $meta as $property => $value ) {
