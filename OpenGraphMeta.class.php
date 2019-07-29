@@ -121,7 +121,15 @@ class OpenGraphMeta {
 		}
 		$meta['og:url'] = $title->getFullURL();
 		if ( $egFacebookAppId ) {
-			$meta['fb:app_id'] = $egFacebookAppId;
+			// fb:app_id needs a prefix property declaring the namespace, so just add it directly
+			$out->addHeadItem(
+				'meta:property:fb:app_id',
+				'	' . Html::element( 'meta', [
+					'property' => 'fb:app_id',
+					'content' => $egFacebookAppId,
+					'prefix' => 'fb: http://www.facebook.com/2008/fbml'
+				] ) . "\n"
+			);
 		}
 		if ( $egFacebookAdmins ) {
 			$meta['fb:admins'] = $egFacebookAdmins;
@@ -132,6 +140,8 @@ class OpenGraphMeta {
 			$out->addMeta( 'og:image', $meta['og:image'] );
 			unset( $meta['og:image'] );
 		}
+
+		Hooks::run( 'OpenGraphMetaHeaders', [ &$meta, $title ] );
 
 		foreach ( $meta as $property => $value ) {
 			if ( $value ) {
