@@ -141,7 +141,7 @@ class OpenGraphMeta {
 			unset( $meta['og:image'] );
 		}
 
-		Hooks::run( 'OpenGraphMetaHeaders', [ &$meta, $title ] );
+		Hooks::run( 'OpenGraphMetaHeaders', [ &$meta, $title, $out, $parserOutput ] );
 
 		foreach ( $meta as $property => $value ) {
 			if ( $value ) {
