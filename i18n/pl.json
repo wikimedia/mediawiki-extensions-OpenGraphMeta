@@ -1,8 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Sp5uhe"
+			"Sp5uhe",
+			"Rail"
 		]
 	},
-	"opengraphmeta-desc": "Dodaje meta znacznik OpenGraph wykorzystywany przez FaceBookowy przycisk „Lubię to”"
+	"opengraphmeta-desc": "Dodaje meta znacznik OpenGraph wykorzystywany przez Facebookowy przycisk „Lubię to”"
 }
