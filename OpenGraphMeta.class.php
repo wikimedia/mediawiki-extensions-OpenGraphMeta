@@ -10,6 +10,8 @@
  * @link https://www.mediawiki.org/wiki/Extension:OpenGraphMeta Documentation
  */
 
+use MediaWiki\MediaWikiServices;
+
 class OpenGraphMeta {
 	/**
 	 * @param Parser $parser
@@ -67,7 +69,13 @@ class OpenGraphMeta {
 		$setMainTitle = $parserOutput->getExtensionData( 'setmaintitle' );
 
 		if ( $setMainImage !== null ) {
-			$mainImage = wfFindFile( Title::newFromText( $setMainImage, NS_FILE ) );
+			if ( method_exists( MediaWikiServices::class, 'getRepoGroup' ) ) {
+				// MediaWiki 1.34+
+				$mainImage = MediaWikiServices::getInstance()->getRepoGroup()
+					->findFile( Title::newFromText( $setMainImage, NS_FILE ) );
+			} else {
+				$mainImage = wfFindFile( Title::newFromText( $setMainImage, NS_FILE ) );
+			}
 		} else {
 			$mainImage = false;
 		}
