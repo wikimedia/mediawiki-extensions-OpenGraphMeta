@@ -118,7 +118,12 @@ class OpenGraphMeta {
 		} elseif ( $isMainpage ) {
 			$meta['og:image'] = wfExpandUrl( $wgLogo );
 		}
-		$description = $parserOutput->getProperty( 'description' );
+		if ( method_exists( $parserOutput, 'getPageProperty' ) ) {
+			// MW 1.38
+			$description = $parserOutput->getPageProperty( 'description' );
+		} else {
+			$description = $parserOutput->getProperty( 'description' );
+		}
 		if ( $description !== false ) { // set by Description2 extension, install it if you want proper og:description support
 			$meta['og:description'] = $description;
 		}
