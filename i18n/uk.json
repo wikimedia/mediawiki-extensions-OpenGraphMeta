@@ -1,8 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Base"
+			"Base",
+			"DDPAT"
 		]
 	},
-	"opengraphmeta-desc": "Додає мета-теґи OpenGraph, що використовуються кнопкою Like Facebook"
+	"opengraphmeta-desc": "Додає мета-теги OpenGraph, що використовуються кнопкою Like Facebook"
 }
