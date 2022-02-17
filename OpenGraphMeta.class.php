@@ -120,7 +120,8 @@ class OpenGraphMeta {
 		}
 		if ( method_exists( $parserOutput, 'getPageProperty' ) ) {
 			// MW 1.38
-			$description = $parserOutput->getPageProperty( 'description' );
+			// T301915
+			$description = $parserOutput->getPageProperty( 'description' ) ?? false;
 		} else {
 			$description = $parserOutput->getProperty( 'description' );
 		}
