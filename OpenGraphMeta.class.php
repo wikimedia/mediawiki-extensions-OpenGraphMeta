@@ -120,12 +120,14 @@ class OpenGraphMeta {
 		}
 		if ( method_exists( $parserOutput, 'getPageProperty' ) ) {
 			// MW 1.38
-			// T301915
-			$description = $parserOutput->getPageProperty( 'description' ) ?? false;
+			$description = $parserOutput->getPageProperty( 'description' );
 		} else {
 			$description = $parserOutput->getProperty( 'description' );
+			if ( $description === false ) {
+				$description = null;
+			}
 		}
-		if ( $description !== false ) { // set by Description2 extension, install it if you want proper og:description support
+		if ( $description !== null ) { // set by Description2 extension, install it if you want proper og:description support
 			$meta['og:description'] = $description;
 		}
 		$meta['og:url'] = $title->getFullURL();
