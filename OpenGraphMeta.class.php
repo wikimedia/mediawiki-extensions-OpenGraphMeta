@@ -63,7 +63,7 @@ class OpenGraphMeta {
 	 * @param ParserOutput $parserOutput
 	 */
 	public static function onOutputPageParserOutput( OutputPage &$out, ParserOutput $parserOutput ) {
-		global $wgLogo, $wgSitename, $wgXhtmlNamespaces, $egFacebookAppId, $egFacebookAdmins;
+		global $wgLogo, $wgXhtmlNamespaces, $egFacebookAppId, $egFacebookAdmins;
 
 		$setMainImage = $parserOutput->getExtensionData( 'setmainimage' );
 		$setMainTitle = $parserOutput->getExtensionData( 'setmaintitle' );
@@ -78,15 +78,16 @@ class OpenGraphMeta {
 		$wgXhtmlNamespaces['og'] = 'http://opengraphprotocol.org/schema/';
 		$title = $out->getTitle();
 		$isMainpage = $title->isMainPage();
+		$siteName = $out->msg( 'opengraphmeta-site-name' );
 
 		$meta = [];
 
 		if ( $isMainpage ) {
 			$meta['og:type'] = 'website';
-			$meta['og:title'] = $wgSitename;
+			$meta['og:title'] = $siteName;
 		} else {
 			$meta['og:type'] = 'article';
-			$meta['og:site_name'] = $wgSitename;
+			$meta['og:site_name'] = $siteName;
 			// Try to choose the most appropriate title for showing in news feeds.
 			if (
 				( defined( 'NS_BLOG_ARTICLE' ) && $title->getNamespace() == NS_BLOG_ARTICLE ) ||

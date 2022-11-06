@@ -4,5 +4,6 @@
 			"Daniel Friesen"
 		]
 	},
-	"opengraphmeta-desc": "Adds OpenGraph meta tags used by Facebook's Like button"
+	"opengraphmeta-desc": "Adds OpenGraph meta tags used by Facebook's Like button",
+	"opengraphmeta-site-name": "{{SITENAME}}"
 }
