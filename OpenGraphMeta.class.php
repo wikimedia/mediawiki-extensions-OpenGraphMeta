@@ -153,7 +153,7 @@ class OpenGraphMeta {
 			unset( $meta['og:image'] );
 		}
 
-		Hooks::run( 'OpenGraphMetaHeaders', [ &$meta, $title, $out, $parserOutput ] );
+		MediaWikiServices::getInstance()->getHookContainer()->run( 'OpenGraphMetaHeaders', [ &$meta, $title, $out, $parserOutput ] );
 
 		foreach ( $meta as $property => $value ) {
 			if ( $value ) {
