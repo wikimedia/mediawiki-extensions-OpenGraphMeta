@@ -10,7 +10,9 @@
  * @link https://www.mediawiki.org/wiki/Extension:OpenGraphMeta Documentation
  */
 
+use MediaWiki\Html\Html;
 use MediaWiki\MediaWikiServices;
+use MediaWiki\Title\Title;
 
 class OpenGraphMeta {
 	/**
@@ -68,9 +70,11 @@ class OpenGraphMeta {
 		$setMainImage = $parserOutput->getExtensionData( 'setmainimage' );
 		$setMainTitle = $parserOutput->getExtensionData( 'setmaintitle' );
 
+		$services = MediaWikiServices::getInstance();
+		$urlUtils = $services->getUrlUtils();
+
 		if ( $setMainImage !== null ) {
-			$mainImage = MediaWikiServices::getInstance()->getRepoGroup()
-				->findFile( Title::newFromText( $setMainImage, NS_FILE ) );
+			$mainImage = $services->getRepoGroup()->findFile( Title::newFromText( $setMainImage, NS_FILE ) );
 		} else {
 			$mainImage = false;
 		}
@@ -111,27 +115,22 @@ class OpenGraphMeta {
 				// - thumbnail previews look best at 1200px x 630px
 				// @see https://developers.facebook.com/docs/sharing/best-practices/
 				// @see https://phabricator.wikimedia.org/T193986
-				$meta['og:image'] = wfExpandUrl( $mainImage->createThumb( 1200, 630 ) );
+				$meta['og:image'] = $urlUtils->expand( $mainImage->createThumb( 1200, 630 ) );
 			} else {
 				// In some edge-cases we won't have defined an object but rather a full URL.
 				$meta['og:image'] = $mainImage;
 			}
 		} elseif ( $isMainpage ) {
-			$meta['og:image'] = wfExpandUrl( $wgLogo );
+			$meta['og:image'] = $urlUtils->expand( $wgLogo );
 		}
-		if ( method_exists( $parserOutput, 'getPageProperty' ) ) {
-			// MW 1.38
-			$description = $parserOutput->getPageProperty( 'description' );
-		} else {
-			$description = $parserOutput->getProperty( 'description' );
-			if ( $description === false ) {
-				$description = null;
-			}
-		}
+
+		$description = $parserOutput->getPageProperty( 'description' );
 		if ( $description !== null ) { // set by Description2 extension, install it if you want proper og:description support
 			$meta['og:description'] = $description;
 		}
+
 		$meta['og:url'] = $title->getFullURL();
+
 		if ( $egFacebookAppId ) {
 			// fb:app_id needs a prefix property declaring the namespace, so just add it directly
 			$out->addHeadItem(
@@ -143,6 +142,7 @@ class OpenGraphMeta {
 				] ) . "\n"
 			);
 		}
+
 		if ( $egFacebookAdmins ) {
 			$meta['fb:admins'] = $egFacebookAdmins;
 		}
@@ -153,7 +153,7 @@ class OpenGraphMeta {
 			unset( $meta['og:image'] );
 		}
 
-		MediaWikiServices::getInstance()->getHookContainer()->run( 'OpenGraphMetaHeaders', [ &$meta, $title, $out, $parserOutput ] );
+		$services->getHookContainer()->run( 'OpenGraphMetaHeaders', [ &$meta, $title, $out, $parserOutput ] );
 
 		foreach ( $meta as $property => $value ) {
 			if ( $value ) {
