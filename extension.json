@@ -1,6 +1,6 @@
 {
 	"name": "OpenGraphMeta",
-	"version": "0.5.6",
+	"version": "0.6",
 	"author": [
 		"[http://danf.ca/mw/ Daniel Friesen]",
 		"Southparkfan",
@@ -12,7 +12,7 @@
 	"license-name": "GPL-2.0-or-later",
 	"type": "parserhook",
 	"requires": {
-		"MediaWiki": ">= 1.35.0"
+		"MediaWiki": ">= 1.43.0"
 	},
 	"config": {
 		"_prefix": "eg",
