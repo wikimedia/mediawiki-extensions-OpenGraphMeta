@@ -1,8 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"IvanLanin"
+			"IvanLanin",
+			"Penyuwangi"
 		]
 	},
-	"opengraphmeta-desc": "Menambahkan tag meta OpenGraph untuk digunakan oleh tombol \"Suka\" FaceBook"
+	"opengraphmeta-desc": "Menambahkan tanda meta OpenGraph yang digunakan oleh tombol Suka Facebook."
 }
