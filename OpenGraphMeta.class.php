@@ -26,13 +26,13 @@ class OpenGraphMeta {
 	/**
 	 * @param Parser $parser
 	 * @param string $mainImage
-	 * @return string
+	 * @return string Always an empty string
 	 */
 	public static function setMainImagePF( Parser $parser, $mainImage ) {
 		$parserOutput = $parser->getOutput();
 		$setMainImage = $parserOutput->getExtensionData( 'setmainimage' );
 		if ( $setMainImage !== null ) {
-			return $mainImage;
+			return '';
 		}
 
 		$file = Title::newFromText( $mainImage, NS_FILE );
@@ -40,24 +40,24 @@ class OpenGraphMeta {
 			$parserOutput->setExtensionData( 'setmainimage', $file->getDBkey() );
 		}
 
-		return $mainImage;
+		return '';
 	}
 
 	/**
 	 * @param Parser $parser
 	 * @param string $mainTitle
-	 * @return string
+	 * @return string Always an empty string
 	 */
 	public static function setMainTitlePF( Parser $parser, $mainTitle ) {
 		$parserOutput = $parser->getOutput();
 		$setMainTitle = $parserOutput->getExtensionData( 'setmaintitle' );
 		if ( $setMainTitle !== null ) {
-			return $mainTitle;
+			return '';
 		}
 
 		$parserOutput->setExtensionData( 'setmaintitle', $mainTitle );
 
-		return $mainTitle;
+		return '';
 	}
 
 	/**
